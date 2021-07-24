@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.header {
+  text-align: center;
+  font-size: xx-large;
+  color: aliceblue;
+  background-color:black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.App{
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.form{
+  min-height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.searchbar{
+  width: 300px;
+  height: 30px;
+ 
+  border:none;
+}
+
+.searchbtn{
+  width: 60px;
+  height: 30px;
+  
+}
+.recipes
+{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.recipe
+{
+  border:black solid;
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:300px;
+  min-width: 40%;
+  border-radius: 10px;
 }
